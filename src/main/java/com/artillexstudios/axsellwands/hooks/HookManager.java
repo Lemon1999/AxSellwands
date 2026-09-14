@@ -30,6 +30,7 @@ public class HookManager {
                 })
                 .runAfterLoad(() -> {
                     AxIntegrationsAPI.provideIntegration(BuiltinPrices.class);
+                    AxIntegrationsAPI.provideIntegration(UltimateShopPrices.class);
 
                     boolean modified = false;
                     for (String name : IntegrationManager.listAvailableIntegrations(IntegrationType.PROTECTION).keySet()) {

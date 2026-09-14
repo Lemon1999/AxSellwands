@@ -7,7 +7,8 @@ hooks:
   economy-plugin: "Vault"
   # list of supported plugins: https://docs.artillex-studios.com/integrations.html#shop
   # you can set it to "builtin" for the plugin to use the prices.yml
-  price-plugin: "builtin"
+  # you can set it to "UltimateShop" to use UltimateShop sell prices
+  price-plugin: "UltimateShop"
   # used to prevent selling items from other players' containers
   # https://docs.artillex-studios.com/integrations.html#protection
   protection-plugins:
